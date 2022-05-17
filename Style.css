@@ -14,6 +14,7 @@ nav ul {
   margin: 15px;
   padding: 15px;
   position: relative;
+  cursor: pointer;
 }
 /* Quiero hacer deplegable este menú y no me doy cuenta el error */
 nav ul ul {
@@ -92,6 +93,8 @@ p {
   padding: 20px;
   grid-gap: 12px;
   grid-auto-flow: dense;
+  cursor:pointer;
+
 }
 .gallery__img {
   width: 100%;
