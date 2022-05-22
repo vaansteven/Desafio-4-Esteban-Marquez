@@ -22,11 +22,8 @@ nav ul {
   position: relative;
   cursor: pointer;
 }
+/* Quiero hacer deplegable este menú y no me doy cuenta el error */
 
-nav ul ul {
-  position: absolute;
-  display: none;
-}
 nav ul ul li a {
   display: flex;
   font-size: 1.8rem;
@@ -46,7 +43,7 @@ nav ul li a {
   padding: 10px;
   
 }
-/* Quiero hacer deplegable este menú y no me doy cuenta el error */
+
 h2 {
   font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
@@ -90,6 +87,7 @@ p {
   width: auto;
   height: auto;
   object-fit: cover;
+  margin: 10px;
 }
 /*Galerìa responsive*/
 
@@ -174,7 +172,6 @@ height: 100%;
 
 
 }
-
 /* Fin de Galerìa responsive*/
 
 #formulario {
