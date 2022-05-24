@@ -23,7 +23,6 @@ nav ul {
   position: relative;
   cursor: pointer;
 }
-/* Quiero hacer deplegable este menú y no me doy cuenta el error */
 
 nav ul ul li a {
   display: flex;
