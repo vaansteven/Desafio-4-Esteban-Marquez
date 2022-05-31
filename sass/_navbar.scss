@@ -4,6 +4,10 @@
   .navbar-toggler {
     background-color: rgb(31, 31, 207);
   }
+  .navbar-brand:hover{
+	transform: scale(1.1);
+	transition: all 0.5s;
+    cursor: pointer; }
 
   nav {
 	ul {
