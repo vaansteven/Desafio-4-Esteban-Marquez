@@ -4,7 +4,7 @@ html {
     margin: 0 px;
 }
 
-h2 {
+h1 {
     font-size: $TamamañoSubtítulos;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -13,7 +13,7 @@ h2 {
     padding: 7px;
   }
   
-  h3 {
+  h2 {
     font-size: 2.2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -24,9 +24,21 @@ h2 {
     line-height: 0, 7cm;
     font-weight: lighter;
     font-size: 1.8rem;
+
+    
+
+  }
+  .parrafomap{
+    line-height:map-get($textoSecciones,interlineado);
+    font-weight:map-get($textoSecciones,pesodeFuente);
+    font-family:map-get($textoSecciones,fuente) ;
+    font-size:map-get($textoSecciones,tamañodeFuente) ;
+    text-align: $alineaciónParrafo;
+
+
   }
 
-  #footer {
+  .footer {
     justify-content: right;
     text-align: right;
     font-size: 1.5rem;
