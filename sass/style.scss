@@ -88,6 +88,7 @@
     .gallery__item:nth-child(7) {
       grid-row-start: span 2;
     }
+    
   }
   @media (min-width: 1024px) {
     .gallery-container {
@@ -103,13 +104,28 @@
       grid-row-start: span 2;
     }
   }
-  .video {
-    display: flex;
-    width: auto;
-    height: auto;
-    object-fit: cover;
-    justify-content: center;
-    padding: 20px;
-  }
+
+
+  .video-contenedor {
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
   
+    
+    
+}
+ 
+.video-contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 80%;
+   
+    
+}
+ 
  

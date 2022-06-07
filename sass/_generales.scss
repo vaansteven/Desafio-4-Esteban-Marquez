@@ -20,6 +20,10 @@ h2 {
     font-size: 2.2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   }
   p {
     text-align: $alineaciónParrafo;
@@ -36,6 +40,16 @@ h2 {
     font-family:map-get($textoSecciones,fuente) ;
     font-size:map-get($textoSecciones,tamañodeFuente) ;
     text-align: $alineaciónParrafo;
+
+
+  }
+  .nosotrosimg{
+    display:flex;
+    flex-direction: column;
+  }
+  .nosotrostxt{
+    display:flex;
+    flex-direction: column;
 
 
   }
