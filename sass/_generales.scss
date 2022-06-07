@@ -41,18 +41,24 @@ h2 {
     font-size:map-get($textoSecciones,tamañodeFuente) ;
     text-align: $alineaciónParrafo;
 
+  }
+  .nosotros-container{
+    display:flex;
+    flex-direction: column 2;
+    flex-wrap: wrap;
+
 
   }
-  .nosotrosimg{
+  .nosotros-img{
     display:flex;
     flex-direction: column;
+    height:50%;
+    width:50;
   }
-  .nosotrostxt{
-    display:flex;
+  .nosotros-container p {
     flex-direction: column;
-
-
   }
+
 
   .footer {
     justify-content: right;

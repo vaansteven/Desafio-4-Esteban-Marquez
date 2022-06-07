@@ -39,12 +39,18 @@ p {
   font-family: "PT Sans Narrow" sans-serif;
   text-align: justify; }
 
-.nosotrosimg {
+.nosotros-container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column 2;
+  flex-wrap: wrap; }
 
-.nosotrostxt {
+.nosotros-img {
   display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 50; }
+
+.nosotros-container p {
   flex-direction: column; }
 
 .footer {
@@ -268,8 +274,8 @@ s .gallery__item:nth-child(4) {
 
 .video-contenedor {
   position: relative;
-  padding-bottom: 70%;
-  padding-top: 0px;
+  padding-bottom: 60%;
+  padding-top: 0;
   height: 0;
   overflow: hidden; }
 
@@ -279,4 +285,4 @@ s .gallery__item:nth-child(4) {
   left: 10%;
   right: 10%;
   width: 80%;
-  height: 80%; }
+  height: 60%; }
