@@ -44,12 +44,6 @@ p {
   flex-direction: column 2;
   flex-wrap: wrap; }
 
-.nosotros-img {
-  display: flex;
-  flex-direction: column;
-  height: 50%;
-  width: 50; }
-
 .nosotros-container p {
   flex-direction: column; }
 
@@ -59,7 +53,7 @@ p {
   font-size: 1.5rem;
   font-family: "roboto"; }
 
-.navbar, .navbar-brand:hover {
+.navbar {
   background-color: black; }
 
 .navbar-toggler {
@@ -106,7 +100,7 @@ nav ul {
     -webkit-filter: grayscale(0%);
     transition: all 0.7s; }
 
-s .gallery__item:nth-child(4) {
+.gallery__item:nth-child(4) {
   grid-column-start: span 2; }
 
 .gallery__item:nth-child(8) {
@@ -193,27 +187,22 @@ s .gallery__item:nth-child(4) {
       font-family: "roboto",sans-serif;
       font-size: 1.7rem; }
 
-#imagenPortada {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: auto;
-  height: auto;
-  object-fit: cover;
-  text-align: center; }
-
 #leyendaFotos {
   text-align: center;
   font-size: 1.8rem;
   font-family: "PT Sans Narrow", sans-serif; }
 
-#imgStaff {
+.img-fluid {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: auto;
-  object-fit: cover;
-  margin: 10px; }
+  height: 50%;
+  width: 70%;
+  justify-items: center; }
+
+.staff-container {
+  display: flex;
+  flex-direction: column; }
 
 /*Galerìa responsive*/
 .gallery-container {
