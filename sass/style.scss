@@ -27,9 +27,12 @@
     width:70%;
     justify-items: center;
   }
-  .staff-container{
-    display:flex;
-    flex-direction: column;
+  .staff-p{
+    display: inline-block;
+    box-sizing: border-box;
+    columns: 300px 3;
+    column-fill: auto;
+    column-gap: 25px;
   }
  
 
