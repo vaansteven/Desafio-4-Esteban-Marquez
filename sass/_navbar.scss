@@ -2,12 +2,17 @@
     background-color: rgb(0, 0, 0);
   }
   .navbar-toggler {
-    background-color: rgb(31, 31, 207);
+    background-color: rgb(23, 23, 23);
+  }
+  .nav-link{
+	color: white;
+
   }
   .navbar-brand:hover{
 	transform: scale(1.1);
 	transition: all 0.5s;
     cursor: pointer; }
+
 
   nav {
 	ul {
@@ -26,7 +31,8 @@
 				&:hover {
 					ul {
 						display: block;
-						color: transparent;
+						
+						
 					}
 				}
 			}

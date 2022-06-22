@@ -34,28 +34,19 @@
     column-fill: auto;
     column-gap: 25px;
   }
- 
-
-
-
   .video-contenedor {
     position: relative;
     padding-bottom: 60%;
     padding-top: 0;
     height: 0;
     overflow: hidden;
-  
-    
     
 }
- 
-.video-contenedor iframe {
+  .video-contenedor iframe {
     position: absolute;
     top: 0;
     left: 10%;
     right: 10%;
     width: 80%;
     height: 60%;
-   
-    
 }
