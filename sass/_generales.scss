@@ -1,4 +1,4 @@
-html {
+html{
     font-size: 62.5%;
     box-sizing: border-box;
     margin: 0;
@@ -44,6 +44,63 @@ h2 {
 
   }
 
+  .redes-sociales {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+    ul {
+      li {
+        display: inline-block;
+        margin: 0, 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        a {
+          display: block;
+          padding: 0, 10px;
+          background: #333;
+          color: #fff;
+          line-height: 50px;
+          font-size: 20px;
+          box-shadow: 0 3px 5px 0px rgba(0,0,0,2);
+          transition: .3s;
+          &:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 35x 5px 0px rgba(0,0,0,4);
+            filter: none;
+          }
+        }
+        .facebook {
+          &:hover {
+            background: $facebook;
+          }
+        }
+        .instagram {
+          &:hover {
+            background: $instagram;
+          }
+        }
+        .youtube {
+          &:hover {
+            background: $youtube;
+          }
+        }
+        .whatsapp {
+          &:hover {
+            background: $whatsapp;
+          }
+        }
+      }
+      &:hover {
+        a {
+          filter: blur(2px);
+        }
+      }
+    }
+  }
+  
   .footer {
     text-align: center;
     font-size: 1.5rem;

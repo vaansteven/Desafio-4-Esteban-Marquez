@@ -60,6 +60,42 @@ p {
   font-family: "PT Sans Narrow" sans-serif;
   text-align: justify; }
 
+.redes-sociales {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 30px;
+  padding: 30px; }
+  .redes-sociales ul li {
+    display: inline-block;
+    margin: 0, 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center; }
+    .redes-sociales ul li a {
+      display: block;
+      padding: 0, 10px;
+      background: #333;
+      color: #fff;
+      line-height: 50px;
+      font-size: 20px;
+      box-shadow: 0 3px 5px 0px black;
+      transition: .3s; }
+      .redes-sociales ul li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 35x 5px 0px black;
+        filter: none; }
+    .redes-sociales ul li .facebook:hover {
+      background: #3b5998; }
+    .redes-sociales ul li .instagram:hover {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+    .redes-sociales ul li .youtube:hover {
+      background: #df3232; }
+    .redes-sociales ul li .whatsapp:hover {
+      background: #32ee21; }
+  .redes-sociales ul:hover a {
+    filter: blur(2px); }
+
 .footer, #leyendaFotos {
   text-align: center;
   font-size: 1.5rem;
