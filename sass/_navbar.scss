@@ -4,10 +4,21 @@
   .navbar-toggler {
     background-color: rgb(23, 23, 23);
   }
-  .nav-link{
-	color: white;
 
+  .nav-link {
+	color: white;
   }
+
+  .navbar-overflow {
+	overflow-y: hidden;
+	height: 100px;
+  }
+
+  .navbar-logo {
+	height: 180px;
+	width: auto;
+  }
+
   .navbar-brand:hover{
 	transform: scale(1.1);
 	transition: all 0.5s;

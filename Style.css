@@ -60,6 +60,9 @@ p {
   font-family: "PT Sans Narrow" sans-serif;
   text-align: justify; }
 
+.nosotros-container {
+  padding: 20px 50px; }
+
 .redes-sociales {
   display: flex;
   align-content: center;
@@ -110,6 +113,14 @@ p {
 
 .nav-link {
   color: white; }
+
+.navbar-overflow {
+  overflow-y: hidden;
+  height: 100px; }
+
+.navbar-logo {
+  height: 180px;
+  width: auto; }
 
 .navbar-brand:hover {
   transform: scale(1.1);
@@ -254,11 +265,12 @@ nav ul {
       font-size: 16px;
       font-weight: 300; }
     .container .card a {
-      font-weight: 500;
       text-decoration: none;
       color: #540def;
       font-family: "roboto",sans-serif;
-      font-size: 1.7rem; }
+      font-size: 1.7rem;
+      padding-top: 1.5rem;
+      font-weight: 800; }
 
 #leyendaFotos {
   text-align: center;
