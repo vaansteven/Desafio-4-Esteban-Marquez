@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /* color texto subtítulos*/
+@media (min-width: 400px) {
+  navbar-logo {
+    max-width: 90px; } }
+
 @media (min-width: 768px) {
+  .navbar-logo {
+    max-width: 120px; }
   .gallery-container {
     grid-template-columns: repeat(4, 1fr); }
   .gallery__item:nth-child(3) {

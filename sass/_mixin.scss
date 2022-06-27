@@ -17,9 +17,16 @@ $mobile: 400px;
   }
 }
 }
-
+@include responsive(mobile){
+	navbar-logo {
+		max-width: 90px;
+	  }
+}
 @include responsive(tablet){
   
+	.navbar-logo {
+		max-width: 120px;
+	  }
 	.gallery-container {
 		grid-template-columns: repeat(4, 1fr);
 	}
