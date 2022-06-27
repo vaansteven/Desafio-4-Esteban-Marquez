@@ -120,10 +120,6 @@ p {
 .nav-link {
   color: white; }
 
-.navbar-overflow {
-  overflow-y: hidden;
-  height: 110px; }
-
 .navbar-logo {
   height: auto;
   width: auto;
