@@ -116,11 +116,12 @@ p {
 
 .navbar-overflow {
   overflow-y: hidden;
-  height: 100px; }
+  height: 110px; }
 
 .navbar-logo {
-  height: 180px;
-  width: auto; }
+  height: auto;
+  width: auto;
+  max-width: 180px; }
 
 .navbar-brand:hover {
   transform: scale(1.1);
