@@ -1,53 +1,47 @@
-@import"variables";
-@import"mixin";
-@import"maps";
-@import"generales";
-@import"navbar";
-@import"grid";
-@import"formulario";
-@import"cards";
+@import "variables";
+@import "mixin";
+@import "maps";
+@import "generales";
+@import "navbar";
+@import "grid";
+@import "formulario";
+@import "cards";
 
-
-
-
-
-  #leyendaFotos {
-    text-align: center;
-    font-size: 1.8rem;
-    font-family: "PT Sans Narrow", sans-serif;
-    @extend.footer;
-    text-align: center;
-  }
-  
-  .img-fluid {
-    margin: 0 auto;
-    display:flex;
-    flex-direction: column;
-    height:50%;
-    width:70%;
-    justify-items: center;
-  }
-  .staff-p{
-    display: inline-block;
-    box-sizing: border-box;
-    columns: 300px 3;
-    column-fill: auto;
-    column-gap: 25px;
-  }
-  .video-contenedor {
-    position: relative;
-    padding-bottom: 60%;
-    padding-top: 0;
-    height: 0;
-    overflow: hidden;
-    
-}
-  .video-contenedor iframe {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    right: 10%;
-    width: 80%;
-    height: 60%;
+#leyendaFotos {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  @extend.footer;
+  text-align: center;
 }
 
+.img-fluid {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 70%;
+  justify-items: center;
+}
+.staff-p {
+  display: inline-block;
+  box-sizing: border-box;
+  columns: 300px 3;
+  column-fill: auto;
+  column-gap: 25px;
+}
+.video-contenedor {
+  position: relative;
+  padding-bottom: 60%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+}
+.video-contenedor iframe {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  height: 60%;
+}

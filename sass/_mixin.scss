@@ -1,61 +1,61 @@
-$pc:1024px;
-$tablet:768px;
+$pc: 1024px;
+$tablet: 768px;
 $mobile: 400px;
 
-@mixin responsive ($medida){
+@mixin responsive($medida) {
   @if $medida==pc {
-  @media(min-width:$pc){
-    @content;
+    @media (min-width: $pc) {
+      @content;
+    }
+  } @else if $medida==tablet {
+    @media (min-width: $tablet) {
+      @content;
+    }
+  } @else if $medida==mobile {
+    @media (min-width: $mobile) {
+      @content;
+    }
   }
-}@else if $medida==tablet{
-  @media(min-width:$tablet){
-    @content;
-  }
-}@else if $medida==mobile{
-  @media(min-width:$mobile){
-    @content;
+}
+@include responsive(mobile) {
+  .navbar-logo {
+    max-width: 90px;
+    height: auto;
   }
 }
+@include responsive(tablet) {
+  .navbar-logo {
+    max-width: 120px;
+    height: auto;
+  }
+  .gallery-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .gallery__item {
+    &:nth-child(3) {
+      grid-column-start: span 2;
+    }
+    &:nth-child(9) {
+      grid-row-start: span 2;
+    }
+    &:nth-child(7) {
+      grid-row-start: span 2;
+    }
+  }
 }
-@include responsive(mobile){
-	.navbar-logo {
-		max-width: 90px;
-	  }
+@include responsive(pc) {
+  .gallery-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .gallery__item {
+    &:nth-child(3) {
+      grid-column-start: span 3;
+    }
+    &:nth-child(5) {
+      grid-column-start: span 3;
+    }
+    &:nth-child(6) {
+      grid-row-start: span 2;
+    }
+  }
 }
-@include responsive(tablet){
-  
-	.navbar-logo {
-		max-width: 120px;
-	  }
-	.gallery-container {
-		grid-template-columns: repeat(4, 1fr);
-	}
-	.gallery__item {
-		&:nth-child(3) {
-			grid-column-start: span 2;
-		}
-		&:nth-child(9) {
-			grid-row-start: span 2;
-		}
-		&:nth-child(7) {
-			grid-row-start: span 2;
-		}
-	}
-}
-@include responsive(pc){
-	.gallery-container {
-		grid-template-columns: repeat(5, 1fr);
-	}
-	.gallery__item {
-		&:nth-child(3) {
-			grid-column-start: span 3;
-		}
-		&:nth-child(5) {
-			grid-column-start: span 3;
-		}
-		&:nth-child(6) {
-			grid-row-start: span 2;
-		}
-	}
-}
-

@@ -1,14 +1,19 @@
 $ColorTxtSub: rgb(238, 241, 235); /* color texto subtítulos*/
-$TamamañoSubtítulos:2.8rem; 
-$alineaciónParrafo:justify;
+$TamamañoSubtítulos: 2.8rem;
+$alineaciónParrafo: justify;
 
-$pc:1024px;
-$tablet:768px;
+$pc: 1024px;
+$tablet: 768px;
 $mobile: 400px;
 
-$facebook:rgb(59, 89, 152);
-$instagram:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+$facebook: rgb(59, 89, 152);
+$instagram: radial-gradient(
+  circle at 30% 107%,
+  #fdf497 0%,
+  #fdf497 5%,
+  #fd5949 45%,
+  #d6249f 60%,
+  #285aeb 90%
+);
 $youtube: rgb(223, 50, 50);
 $whatsapp: rgb(52, 207, 38);
-
-
